@@ -14,5 +14,6 @@ Backend: Python, Flask
 Machine-Learning: COCO-SSD model (via TensorFlow.js)
 Algorithm: Single Shot MultiBox Detector (SSD) trained on the COCO 
 dataset
+Frontend: Html, CSS, JS
 API: Geolocation API in javascript
  
