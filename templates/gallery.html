@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Captured Images</h1>
+    <div id="gallery">
+        {% for img in images %}
+            <img src="{{ img }}" width="200" style="margin: 10px;">
+        {% endfor %}
+    </div>
+</body>
+</html>

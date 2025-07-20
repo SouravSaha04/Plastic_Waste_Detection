@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Object Detection App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+</head>
+<body>
+    <div class="button-container">
+        <button id="startBtn">START SCANNING</button>
+        <button id="stopBtn" style="display:none;">STOP SCANNING</button>
+        <button id="captureBtn" style="display:none;">CAPTURE</button>
+        <button onclick="window.location.href='{{ url_for('gallery') }}'">VIEW IMAGES</button>
+
+    </div>
+    <video id="video" autoplay playsinline></video>
+    <canvas id="canvas"></canvas>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="{{ url_for('static', filename='capture.js') }}"></script>
+</body>
+</html>
