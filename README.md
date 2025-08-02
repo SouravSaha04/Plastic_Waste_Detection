@@ -1,4 +1,4 @@
-Plastic Waste Detection 
+# Plastic Waste Detection 
 
  This application detects plastic objects from roadside and near residence. User can capture those objects with real-time location tagging and timestamp watermarks on images to identify location.
  
