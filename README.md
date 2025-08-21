@@ -2,6 +2,8 @@
 
  This application detects plastic objects from roadside and near residence. User can capture those objects with real-time location tagging and timestamp watermarks on images to identify location.
  
+ Live Link: https://huggingface.co/spaces/SouravSaha26/Plastic_Waste_Detection
+ 
  Features:
  Detects objects from a webcam feed using a pre-trained model.
  Draws bounding boxes and labels on detected objects.
